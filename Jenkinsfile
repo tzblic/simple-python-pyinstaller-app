@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             agent any
             steps {
-                sh 'python test_calc.py'
+                sh 'python sources/test_calc.py'
             }
 
         }
